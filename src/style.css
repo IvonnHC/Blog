@@ -1,0 +1,207 @@
+h1 {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  -webkit-text-stroke: 1.5px #6904f7;
+  font-size: 100px;
+  text-align: center;
+  color: #ffff91;
+  padding: 45px 0px 20px 0px;
+  margin: 2px 0 auto;
+  background-color: #ffff91;
+  border-radius: 10px;
+}
+
+h2 {
+  border-radius: 10px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-weight: unset;
+  font-size: 35px;
+  text-align: center;
+  -webkit-text-stroke: 0.7px #6904f7;
+  color: #ffff91;
+  margin: 2px 0 auto;
+  padding: 80px 8px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(163, 175, 243) 0%,
+    rgb(220, 182, 232) 100.2%
+  );
+}
+hr {
+  border-top: 1px dotted #6904f7;
+}
+
+p {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 150%;
+  padding: 20px;
+  text-align: justify;
+  margin: 0% auto;
+  max-width: 662px;
+}
+button {
+  align-items: center;
+  background: #ffff91;
+  color: #6904f7;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 18px;
+  padding: 25px 20px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px #d1b4f9;
+  transition: all 150ms ease-in-out;
+  border: none;
+  margin: 0px 0 0 30px;
+}
+button:hover {
+  cursor: pointer;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(163, 175, 243) 0%,
+    rgb(220, 182, 232) 100.2%
+  );
+  color: #6904f7;
+  opacity: 0.6;
+}
+ol {
+  list-style: none;
+  text-align: justify;
+  padding: 0 0 0 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 12px;
+}
+li::before {
+  counter-increment: list-item;
+  content: counter(list-item);
+  font-size: 18px;
+  width: 35px;
+  height: 35px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(163, 175, 243) 0%,
+    rgb(220, 182, 232) 100.2%
+  );
+  flex: 0 0 auto;
+  color: #ffff91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+strong {
+  font-weight: 8;
+}
+
+.articleinfo {
+  margin: 12px 0 0 0;
+  padding: 0 10px;
+}
+.readingtime {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: right;
+  justify-content: right;
+  display: block;
+}
+
+.audit {
+  display: block;
+  margin: 0% auto;
+  max-width: 800px;
+  position: relative;
+  padding: 18px 70px 5px 100px;
+}
+.author {
+  color: grey;
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  text-align: right;
+  padding: 28px;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0% auto;
+}
+
+.container {
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  max-width: 800px;
+  background-color: white;
+  box-sizing: border-box;
+  border: 1.2px solid #6904f7;
+  border-radius: 12px;
+  margin: 0% auto;
+}
+
+.illustration {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.letrauno p::first-letter {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-weight: unset;
+  font-size: 52px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(163, 175, 243) 0%,
+    rgb(220, 182, 232) 100.2%
+  );
+  border-radius: 2px;
+  color: #ffff91;
+  padding: 10px 4px;
+  float: left;
+  margin-right: 6px;
+  box-shadow: 3px 3px #ffff91;
+}
+
+.linkedin {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+.linkedin:hover {
+  text-decoration: underline rgb(163, 175, 243);
+  cursor: pointer;
+}
+
+.introduction {
+  max-width: 800px;
+  margin: 0% auto;
+  padding: 10px;
+}
+
+.footer {
+  text-align: center;
+  text-decoration: none;
+  max-width: 800px;
+  margin: 0 10px 10px 10px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(163, 175, 243) 0%,
+    rgb(220, 182, 232) 100.2%
+  );
+  border-radius: 12px;
+  padding: 20px;
+}
+.footer:hover {
+  cursor: pointer;
+}
